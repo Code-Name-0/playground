@@ -36,7 +36,7 @@ def get_members(c, iterations):
 
 
 dpi = get_screen_dpi()
-complex_mat = complex_matrix(10, 10, -10, -10, int(dpi*2.5))
+complex_mat = complex_matrix(10, 10, -10, -10, int(dpi*2.2))
 
 members = get_members(complex_mat, 50)
 
